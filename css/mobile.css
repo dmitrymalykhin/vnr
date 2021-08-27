@@ -1,0 +1,87 @@
+.mobile-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 35px 0 30px 0;
+	width: 100%;
+}
+.hamburger-icon-wrapper {
+	height: 36px;
+	width: 35px;
+	cursor: pointer;
+	z-index: 10;
+	position:relative;
+	background: #EB5757;
+	box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.17);
+	border-radius: 8px;
+}
+.hamburger-icon:before, .hamburger-icon:after {
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 20px;
+	right: 0;
+	background: #FFFFFF;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	border-radius: 2000px;
+}
+.hamburger-icon { 
+	top: 17px;
+	content: '';
+	position: absolute;
+	height: 3px;
+	right: 8px;
+	width: 14.17px;
+	background: #FFFFFF;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	border-radius: 2000px;
+}
+.hamburger-icon:before {
+	top: -0.4em;
+}
+.hamburger-icon:after  {
+	top: 0.45em;
+}
+.hamburger-active .hamburger-icon { 
+	background: transparent;
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	right: 12px !important;
+	top: 14px;
+}
+.hamburger-active .hamburger-icon:before, .hamburger-active .hamburger-icon:after { 
+	top: 0;
+}
+.hamburger-active .hamburger-icon:before { -webkit-transform: rotate(90deg);
+	transform: rotate(90deg)
+}
+.hamburger-active .hamburger-icon, .hamburger-active .hamburger-icon:before, .hamburger-active .hamburger-icon:after {
+	background: #fff;
+}
+.hamburger-menu {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	margin: 0;
+	left: -4000px;
+	-webkit-transition: left 0.3s;
+	-moz-transition: left 0.3s;
+	transition: left 0.3s;
+	background: #fff;
+	z-index: 9;
+	top: 0;
+	right: 0;
+	padding: 20px;
+}
+.hamburger-active .hamburger-menu {
+	left: 0;
+	overflow-y: auto;
+}
