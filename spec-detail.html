@@ -123,7 +123,7 @@
       </div>
     </header>
 
-    <section class="page">
+    <section class="page spec">
       <div class="container">
         <a href="#" onclick="history.go(-1)" class="back">
           <img src="image/arrow.png" alt="">
@@ -157,7 +157,7 @@
               Образование
             </div>
             <div class="tab-flex-item" data-switcher-show="1">
-              Отзывы о специалисте
+              Отзывы
             </div>
             <div class="tab-flex-item" data-switcher-show="2">
              Вопрос - ответ
@@ -201,30 +201,86 @@
           </div>
           <div class="yes-feedback" id="yes-feedback">
             <div class="yes-feedback-block">
-              <div class="yes-feedback__title">
-                Матвиенко Карина
-                <span>
-                  25.07.2020
-                </span>
-              </div>
-              <div class="yes-feedback__stat">
-                <div class="rating-result">
-                  <span class="active"></span>  
-                  <span class="active"></span>    
-                  <span class="active"></span>  
-                  <span></span>    
-                  <span></span>
+              <div class="yes-feedback-block-card">
+                <div class="yes-feedback__title">
+                  Матвиенко Карина
+                  <span>
+                    25.07.2020
+                  </span>
+                </div>
+                <div class="yes-feedback__stat">
+                  <div class="rating-result">
+                    <span class="active"></span>  
+                    <span class="active"></span>    
+                    <span class="active"></span>  
+                    <span></span>    
+                    <span></span>
+                  </div>
+                </div>
+                <div class="yes-feedback__text">
+                  Низкий поклон и глубочайшая благодарность доктору
+                  от бога с золотыми руками !В 98м году после страшной
+                  аварии Александр Николаевич провёл сложнейшую операцию
+                  на позвоночник с установкой металлопластины ..Благодаря
+                  ему вместо того чтоб лежать 7 месяцев я встала на ноги
+                  уже через месяц ..могла ходить в корсете и уже через
+                  год после удаления пластины я стала полноценным человеком!
+                  Всем рекомендую этого от бога -доктора !!!
                 </div>
               </div>
-              <div class="yes-feedback__text">
-                Низкий поклон и глубочайшая благодарность доктору
-                от бога с золотыми руками !В 98м году после страшной
-                аварии Александр Николаевич провёл сложнейшую операцию
-                на позвоночник с установкой металлопластины ..Благодаря
-                ему вместо того чтоб лежать 7 месяцев я встала на ноги
-                уже через месяц ..могла ходить в корсете и уже через
-                год после удаления пластины я стала полноценным человеком!
-                Всем рекомендую этого от бога -доктора !!!
+              <div class="yes-feedback-block-card">
+                <div class="yes-feedback__title">
+                  Матвиенко Карина
+                  <span>
+                    25.07.2020
+                  </span>
+                </div>
+                <div class="yes-feedback__stat">
+                  <div class="rating-result">
+                    <span class="active"></span>  
+                    <span class="active"></span>    
+                    <span class="active"></span>  
+                    <span></span>    
+                    <span></span>
+                  </div>
+                </div>
+                <div class="yes-feedback__text">
+                  Низкий поклон и глубочайшая благодарность доктору
+                  от бога с золотыми руками !В 98м году после страшной
+                  аварии Александр Николаевич провёл сложнейшую операцию
+                  на позвоночник с установкой металлопластины ..Благодаря
+                  ему вместо того чтоб лежать 7 месяцев я встала на ноги
+                  уже через месяц ..могла ходить в корсете и уже через
+                  год после удаления пластины я стала полноценным человеком!
+                  Всем рекомендую этого от бога -доктора !!!
+                </div>
+              </div>
+              <div class="yes-feedback-block-card">
+                <div class="yes-feedback__title">
+                  Матвиенко Карина
+                  <span>
+                    25.07.2020
+                  </span>
+                </div>
+                <div class="yes-feedback__stat">
+                  <div class="rating-result">
+                    <span class="active"></span>  
+                    <span class="active"></span>    
+                    <span class="active"></span>  
+                    <span></span>    
+                    <span></span>
+                  </div>
+                </div>
+                <div class="yes-feedback__text">
+                  Низкий поклон и глубочайшая благодарность доктору
+                  от бога с золотыми руками !В 98м году после страшной
+                  аварии Александр Николаевич провёл сложнейшую операцию
+                  на позвоночник с установкой металлопластины ..Благодаря
+                  ему вместо того чтоб лежать 7 месяцев я встала на ноги
+                  уже через месяц ..могла ходить в корсете и уже через
+                  год после удаления пластины я стала полноценным человеком!
+                  Всем рекомендую этого от бога -доктора !!!
+                </div>
               </div>
               <div class="no-feedback__btn feed-btn" onclick="(document.getElementById('form-feedback').style.display='block');
               (document.getElementById('yes-feedback').style.display='none')">
@@ -263,7 +319,17 @@
   </div>
 </div>
 <div class="tab-content-item" data-switcher-name="2">
-
+  <form action="" class="question">
+    <div class="question__title">
+      Задайте свой вопрос
+    </div>
+    <input type="text" class="address__input" placeholder="Имя" name="name">
+    <input type="mail" class="address__input" placeholder="E-mail" name="mail">
+    <textarea name="question" placeholder="Вопрос" class="address__input input-area" cols="30" rows="10"></textarea>
+    <button type="submit" class="feed-btn">
+      Отпраить вопрос
+    </button>
+  </form>
 </div>
 </div>
 </div>
@@ -339,6 +405,24 @@
     </div>
   </div>
 </div>
+</div>
+
+<div class="modal-overlay" data-modal="good2">
+  <div class="modal">
+    <a class="close-modal">
+      <a class="close-modal">
+        <img src="image/close.png" alt="">
+      </a>
+    </a>
+    <div class="modal-content">
+      <div class="pom__image">
+        <img src="image/good.png" alt="">
+      </div>
+      <div class="good__title">
+        Ваш вопрос отправлен
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="modal-overlay" data-modal="local">
