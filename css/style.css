@@ -158,13 +158,13 @@ button {
 		background: url(../image/bg1.png) top 60px left 0px;
 		background-size: contain;
 		background-repeat: no-repeat;
-		transition: background 1.5s linear;
+		transition: background .5s linear;
 	}
 	.flex-item-2 {
 		background: url(../image/bg2.png) top 60px left 0px;
 		background-size: contain;
 		background-repeat: no-repeat;
-		transition: background 1.5s linear;
+		transition: background .5s linear;
 	}
 	.flex-item-3 {
 		background: url(../image/bg3.png) top 70px left 0px;
@@ -172,25 +172,25 @@ button {
 		background-repeat: no-repeat;
 		z-index: 2;
 		position: relative;
-		transition: background 1.5s linear;
+		transition: background .5s linear;
 	}
 	.flex-item-4 {
 		background: url(../image/bg4.png) top 70px left 0px;
 		background-size: contain;
 		background-repeat: no-repeat;
-		transition: background 1.5s linear;
+		transition: background .5s linear;
 	}
 	.flex-item-5 {
 		background: url(../image/bg5.png) top 40px left 0px;
 		background-size: contain;
 		background-repeat: no-repeat;
-		transition: background 1.5s linear;
+		transition: background .5s linear;
 	}
 	.flex-item-6 {
 		background: url(../image/bg6.png) top 40px left 0px;
 		background-size: contain;
 		background-repeat: no-repeat;
-		transition: background 1.5s linear;
+		transition: background .5s linear;
 	}
 	.flex-item-1:hover {
 		background: #D4CDFF;
