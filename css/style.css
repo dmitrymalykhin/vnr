@@ -404,10 +404,12 @@ button {
 		object-fit: scale-down;
 	}
 	.open-search .search-block {
-		display: block
+		transform: translateX(1000px);
 	}
 	.search-block {
-		display: none;
+		position: relative;
+		left: -1000px;
+		transition: transform 0.5s;
 	}
 	.open-search {
 		display: block;
@@ -423,6 +425,7 @@ button {
 	}
 	.search__input {
 		border: none;
+		outline: none;
 		padding: 10px 0;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 		font-family: 'Roboto-Regular';
@@ -1644,7 +1647,7 @@ button {
 						-webkit-box-align: center;
 						-ms-flex-align: center;
 						align-items: center;
-						margin: 6px 0 24px 0;
+						margin: 18px 0 24px 0;
 						font-family: 'Roboto-Regular';
 						font-style: normal;
 						font-weight: normal;
@@ -1727,5 +1730,9 @@ button {
 					.spec .tab-flex-item {
 						font-size: 14px;
 						line-height: 16px;
+					}
+					form button:hover {
+						background: #EB5757;
+						color: #fff;
 					}
 				}
