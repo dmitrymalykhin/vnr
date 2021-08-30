@@ -186,6 +186,32 @@ button {
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
+	.flex-item-1:hover {
+		background: url(../image/bg1.png) 100%;
+		background-size: 550%;
+	}
+	.flex-item-2:hover {
+		background: url(../image/bg2.png) 100%;
+		background-size: 450%;
+	}
+	.flex-item-3:hover {
+		background: url(../image/bg3.png) 100% 100%;
+		background-size: 450%;
+		z-index: 2;
+		position: relative;
+	}
+	.flex-item-4:hover {
+		background: url(../image/bg4.png) 100%;
+		background-size: 850%;
+	}
+	.flex-item-5:hover {
+		background: url(../image/bg5.png) 100%;
+		background-size: 450%;
+	}
+	.flex-item-6:hover {
+		background: url(../image/bg6.png) 100%;
+		background-size: 450%;
+	}
 	.flex-item-1 img {
 		position: absolute;
 		right: 10px;
