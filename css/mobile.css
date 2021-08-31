@@ -20,6 +20,7 @@
 	background: #EB5757;
 	box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.17);
 	border-radius: 8px;
+	right: 110px;
 }
 .hamburger-icon:before, .hamburger-icon:after {
 	content: '';
@@ -67,7 +68,7 @@
 	background: #fff;
 }
 .hamburger-menu {
-	width: 100%;
+	width: 300px;
 	height: 100%;
 	position: fixed;
 	margin: 0;
@@ -80,6 +81,7 @@
 	top: 0;
 	right: 0;
 	padding: 20px;
+	box-shadow: -14px 0px 30px rgba(0, 0, 0, 0.13);
 }
 .hamburger-active .hamburger-menu {
 	left: 0;

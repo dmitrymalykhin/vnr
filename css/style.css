@@ -391,6 +391,10 @@ button {
 	.open-search .search__icon {
 		display: none;
 	}
+	.search__icon {
+		width: 24px;
+		height: 24px;
+	}
 	.searh img {
 		width: 24px;
 		height: 24px;
