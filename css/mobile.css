@@ -20,7 +20,6 @@
 	background: #EB5757;
 	box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.17);
 	border-radius: 8px;
-	right: 110px;
 }
 .hamburger-icon:before, .hamburger-icon:after {
 	content: '';
@@ -57,6 +56,9 @@
 	transform: rotate(-135deg);
 	right: 12px !important;
 	top: 14px;
+}
+.hamburger-active .hamburger-icon-wrapper {
+		right: 110px;
 }
 .hamburger-active .hamburger-icon:before, .hamburger-active .hamburger-icon:after { 
 	top: 0;
